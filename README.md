@@ -34,3 +34,5 @@ There's essentially 3 methods : one that chekcs the signature of the file, one t
 constructor -> check signature -> read header -> read sprites ( -> read unpacked or read packed )
 
 trs_unpacker.jar is a runnable jar from those files 
+
+AFAIK it works for all .trs files (haven't tried on dominion's but it works on all CoE4's.)
