@@ -31,4 +31,6 @@ TRS_decoder.java is the main dishe. There's a very long introduction comment to 
 
 There's essentially 3 methods : one that chekcs the signature of the file, one that read the header of the file and one that read the sprites. There's 3 others methods : one simply convert pixel data into java "Color" objects, and 2 methods for reading packed or unpacked sprites inside the .trs.
 
+constructor -> check signature -> read header -> read sprites ( -> read unpacked or read packed )
+
 trs_unpacker.jar is a runnable jar from those files 
