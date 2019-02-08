@@ -20,9 +20,15 @@ it should print the options
 
 
 entry_point.java contains the main method and read the command line
+
 FileOpener.java is a helper class used to open a channel on a file and return a bytebuffer
+
 Utils.java is another helper class used to play with bits
+
 coe4_utils.java is an utility class that contains offset for the "subgroups" of monsters.trs from Conquest of elysium 4
-TRS_decoder.java is the main dishe. There's a very long introduction comment to explain how to read the .TRS files. code should be clear. There's essentially 3 methods : one that chekcs the signature of the file, one that read the header of the file and one that read the sprites. There's 3 others methods : one simply convert pixel data into java "Color" objects, and 2 methods for reading packed or unpacked sprites inside the .trs.
+
+TRS_decoder.java is the main dishe. There's a very long introduction comment to explain how to read the .TRS files. code should be clear. 
+
+There's essentially 3 methods : one that chekcs the signature of the file, one that read the header of the file and one that read the sprites. There's 3 others methods : one simply convert pixel data into java "Color" objects, and 2 methods for reading packed or unpacked sprites inside the .trs.
 
 trs_unpacker.jar is a runnable jar from those files 
